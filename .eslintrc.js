@@ -3,7 +3,9 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: "eslint:recommended",
+  extends: [
+    "airbnb-base",
+  ],
   parserOptions: {
     ecmaVersion: 13,
     sourceType: 'module',
@@ -12,5 +14,5 @@ module.exports = {
     semi: ["error", "always"],
     quotes: ["error", "double", { allowTemplateLiterals: true }],
     indent: ["error", 4],
-},
+  },
 };
