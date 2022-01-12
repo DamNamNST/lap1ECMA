@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.news-item{
+  @apply border p-3 hover:border-red-400
+}
